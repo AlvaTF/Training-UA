@@ -1,0 +1,13 @@
+[project]
+name = "Training UA"
+version = "0.1.0"
+description = "Cronometraje de pasadas por alumno y ejercicio"
+requires-python = ">=3.10"
+dependencies = [
+    "flet==0.28.3",
+    "openpyxl",
+]
+
+[tool.flet]
+org = "com.tuorganizacion"
+product = "CronoClase"
